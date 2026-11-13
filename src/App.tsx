@@ -10,6 +10,7 @@ import { kanjiMasterN5 } from './data/kanjiMasterN5';
 import { minnaLessons } from './data/minnaLessons';
 import { kotobaListN5 } from './data/kotobaData';
 import { ArrowRight, X, Trash2 } from 'lucide-react';
+import heroJapaneseStudy from './assets/images/hero_japanese_study_1794480666834.jpg';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState<
@@ -255,7 +256,7 @@ export default function App() {
               {/* Photo hero */}
               <div className="lg:col-span-5 relative min-h-[220px] lg:min-h-full bg-stone-100">
                 <img
-                  src="/src/assets/images/hero_japanese_study_1794480666834.jpg"
+                  src={heroJapaneseStudy}
                   alt="Japanese Study Desk"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover"

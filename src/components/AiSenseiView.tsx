@@ -7,6 +7,7 @@ import {
   BookOpen,
   Languages,
 } from 'lucide-react';
+import senseiAvatar from '../assets/images/sensei_avatar_1794480666724.jpg';
 
 interface ChatMessage {
   id: string;
@@ -164,7 +165,7 @@ export const AiSenseiView: React.FC = () => {
         <div className="flex flex-col sm:flex-row items-center sm:items-start gap-4">
           <div className="relative w-20 h-20 sm:w-24 sm:h-24 rounded-2xl overflow-hidden shrink-0 border border-stone-200 bg-rose-50">
             <img
-              src="/src/assets/images/sensei_avatar_1794480666724.jpg"
+              src={senseiAvatar}
               alt="Tanaka Sensei"
               referrerPolicy="no-referrer"
               className="w-full h-full object-cover"
@@ -330,7 +331,7 @@ export const AiSenseiView: React.FC = () => {
               {isSensei && (
                 <div className="w-8 h-8 rounded-full overflow-hidden shrink-0 border border-stone-200 bg-rose-50">
                   <img
-                    src="/src/assets/images/sensei_avatar_1794480666724.jpg"
+                    src={senseiAvatar}
                     alt="Sensei"
                     referrerPolicy="no-referrer"
                     className="w-full h-full object-cover"
@@ -372,7 +373,7 @@ export const AiSenseiView: React.FC = () => {
           <div className="flex gap-3 items-center text-stone-500 text-xs">
             <div className="w-8 h-8 rounded-full overflow-hidden shrink-0 border border-stone-200 bg-rose-50">
               <img
-                src="/src/assets/images/sensei_avatar_1794480666724.jpg"
+                src={senseiAvatar}
                 alt="Sensei"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover"
