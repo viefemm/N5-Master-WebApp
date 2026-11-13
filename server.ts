@@ -101,7 +101,7 @@ Aturan Penulisan:
       });
 
       const response = await ai.models.generateContent({
-        model: 'gemini-3.8-flash',
+        model: 'gemini-4-hydrogen',
         contents: sanitizedHistory,
         config: {
           systemInstruction,
