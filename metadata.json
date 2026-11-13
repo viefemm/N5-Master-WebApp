@@ -1,0 +1,6 @@
+{
+  "name": "N5 Master: Minna no Nihongo & Kanji Master",
+  "description": "Aplikasi komprehensif belajar bahasa Jepang JLPT N5 berbasis buku Minna no Nihongo I (Bab 1-25) dan Kanji Master N5 dengan audio, stroke canvas, pola kalimat, dan simulasi ujian.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
